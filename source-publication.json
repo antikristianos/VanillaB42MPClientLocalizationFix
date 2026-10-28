@@ -1,0 +1,284 @@
+{
+  "SchemaVersion": 1,
+  "Project": "VanillaB42MPClientLocalizationFix",
+  "Repository": "antikristianos/VanillaB42MPClientLocalizationFix",
+  "Branch": "wip",
+  "Tag": "wip-1.63",
+  "ModVersion": "1.5.2",
+  "CollectionVersion": "1.63",
+  "WorkshopId": 3802764936,
+  "WorkshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802764936",
+  "UploadManifestSha256": "2DF2A9D193786BC163CE4EA9E9B6232EE0819F421B726E8CA65CB59859AB0AD7",
+  "Artifact": {
+    "Path": "mods/VanillaB42MPClientLocalizationFix_WIP/42.22/media/java/VanillaB42MPClientLocalizationFix.jar",
+    "Size": 75573,
+    "Sha256": "246BE03ACA8A8E83C27BC5213BE8ACA8F3F2B02B2C5E3540B0B5112E26DAB6C4"
+  },
+  "Sources": [
+    {
+      "Path": ".gitignore",
+      "Size": 8,
+      "Sha256": "020C2606E8ED484089C2083E0BE438B9D0736BEE1558A6B76AF0D58BD23F69CF"
+    },
+    {
+      "Path": "MANIFEST.MF",
+      "Size": 175,
+      "Sha256": "739EFBBE21F3F60F41D7ADE3A89D44230C8D65D49134BA62DCE31C0CD7DD53BF"
+    },
+    {
+      "Path": "README.md",
+      "Size": 1487,
+      "Sha256": "3658E261C527D77299991292FAB77DFE001C3A3B89DA1489EF338EEE88086B00"
+    },
+    {
+      "Path": "build.json",
+      "Size": 12805,
+      "Sha256": "A0685AA18DE03754CC0A1B377268EB87FF3B9B7D31182258D9D8672E8FEF5AA7"
+    },
+    {
+      "Path": "build.ps1",
+      "Size": 2600,
+      "Sha256": "8389B7B0B5515387FA5D9B3989FED7C8629DA7762817C03AD266B69DE5B2B0FD"
+    },
+    {
+      "Path": "runtime/42.22/media/lua/client/VB42MPClientLocalizationFix/FishingRodNames.lua",
+      "Size": 1246,
+      "Sha256": "34456E8531A2BA528511EF15A1FB6EC85E5B36A25DB14F4F35D8BE53AEC6189B"
+    },
+    {
+      "Path": "runtime/42.22/media/lua/shared/VB42MPClientLocalizationFix/EvolvedRecipeNames.lua",
+      "Size": 983,
+      "Sha256": "0B512DDD4AED5425DEA8A40EAB474A3FCADEE7969836A79DAC4C3C44E74375F6"
+    },
+    {
+      "Path": "runtime/42.22/media/lua/shared/VB42MPClientLocalizationFix/MediaRecipes.lua",
+      "Size": 5569,
+      "Sha256": "C2A5651F700868D75EE6392372E4113C4D769489AD3D2506E7CC6965C15AE5B5"
+    },
+    {
+      "Path": "runtime/42.22/mod.info",
+      "Size": 542,
+      "Sha256": "F9EE80B782395B19457A0DC87469D89703994D1FEC1092A2DFB76868E616867D"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/AebsTextCodec.java",
+      "Size": 6186,
+      "Sha256": "59FA9139A7D25B46A7D2851D1BC6FF3529FD72B6EE877C16B8C54F85D18A1FA2"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/EvolvedRecipeNameBuilder.java",
+      "Size": 5594,
+      "Sha256": "9F49095CB0666ED68775319D87DC6A1F978B4C875E7477F5383D0E89B0DAB3A9"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/FishNameState.java",
+      "Size": 1370,
+      "Sha256": "56D2213D78A40113904E54084B671E943AF44A672F6FF88873B8679E7EEC7D3C"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/LiteratureNameState.java",
+      "Size": 6789,
+      "Sha256": "45F615FE025D38DE6062390B95D539DE9D2DF38BB74D7350C309CA0ED64963D2"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/LocalizationRuntime.java",
+      "Size": 38310,
+      "Sha256": "40360F9A70789ECB6747233DA205CFAD2D6AFE2EF5A2909B7BEB1631E5DCBF5E"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/LocalizedText.java",
+      "Size": 7203,
+      "Sha256": "374230BFA1FDB6BC7BCB765B354AB3A40B764E63E8EA61353351F1F309DF86FE"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/LocalizedTextState.java",
+      "Size": 3911,
+      "Sha256": "EB11782956C94081D9BBD42A1051BAEC5E7F96A5BC53D822426E4FE03820A3FB"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/LuaLocalizationBridge.java",
+      "Size": 849,
+      "Sha256": "04145D42D710F9C4B7E19621D5C4AB0FDE3813D17995E7E22A79B7325E76D239"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/MediaRecipeRuntime.java",
+      "Size": 2891,
+      "Sha256": "E1F74638F7F76BF40F55782C9D485337C366867A5D0D63C0DE6BD7F856A45824"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchCharacterIsCraftRecipeKnown.java",
+      "Size": 1284,
+      "Sha256": "02C27AAC00ED021C6E5BFC94FE241E402D336CB4AA06B2C81922B45EE88C7733"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchFoodGetName.java",
+      "Size": 692,
+      "Sha256": "EF1AB90426B8800C16F526A7EDEF2EB2CEC0841BC57054780A33A55BFEC3BB84"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchHaloTextPacketParse.java",
+      "Size": 623,
+      "Sha256": "BFBB2F70FF5A50C83584E87476D71B2029D8C96A1A9A50FECE861771EA5D35F5"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchHaloTextPacketSetData.java",
+      "Size": 535,
+      "Sha256": "F51773D4E6D95E1CE5965480FBA5B709302945B0EE3FFA63A8C979EC0AFC301C"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemGetDisplayName.java",
+      "Size": 671,
+      "Sha256": "3FE3AB51B95FE642E79256B85D661AA4F58E6C5D15CFE795DE03051E17F01DBD"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemGetEvolvedRecipeName.java",
+      "Size": 695,
+      "Sha256": "4EED7616C872B112D4F4C0220F739D436EE635F579EF786202AD7987BA8AE15A"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemGetName.java",
+      "Size": 725,
+      "Sha256": "1D84EA8C3CF6E320AC0DF741341B2486EB4ABFFB6BB1FBC40CB0A36A053E15EB"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemGetTooltip.java",
+      "Size": 627,
+      "Sha256": "093D41828684A93088146FD6671CC25DE312C364D54910C1846EF888300F5EC0"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemLoad.java",
+      "Size": 623,
+      "Sha256": "FE7A0C92D53309654E12FB8BFB140DB5E53F4D4B31618F6072504418F65FD7A7"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemPrepareSave.java",
+      "Size": 620,
+      "Sha256": "BD48094E9681477EBA1856353805D58AEDD2090B44F188C7F76489229883C08B"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemSetCustomName.java",
+      "Size": 627,
+      "Sha256": "BCF3F00DDE61374CEBC5FEF57644A7E77F451E66D4493AD000710A94257BE2B9"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemSetName.java",
+      "Size": 594,
+      "Sha256": "A9BB50CFE77A09CAF716CDD7B6F9F3A2DB4E4366ECC09485D15ED1FB898F384E"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemSetTooltip.java",
+      "Size": 607,
+      "Sha256": "2199EC1BDCBDC86AB5B1516F07612BB2DD128D22ACED661CB53F4B4D2FCA2BC6"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchIsoObjectGetName.java",
+      "Size": 589,
+      "Sha256": "E6CD8D1301A89A94A699AEBA554BB131BE62A03E800038B41DD3A5D58EFD001C"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchIsoObjectSetName.java",
+      "Size": 568,
+      "Sha256": "DE5AED77AC46309246A96C0049BF9346222E02753D16514947D2A5BE898D5A23"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchIsoWaveSignalAddDeviceText.java",
+      "Size": 805,
+      "Sha256": "3CBF22E5A1AF3CEFAC9D45BB0CA52FA482DD01F1EA21C2072999F9BCDAB64984"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchItemStatsPacketApplyItemStats.java",
+      "Size": 1033,
+      "Sha256": "1FAC818A4EDCD7AFE958D56E4756CB50EA632CC86A85F35D8713541DF3084FD8"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchItemStatsPacketSetData.java",
+      "Size": 599,
+      "Sha256": "F714BB63B6AE8A87B31A5D85E14C4FE9A955AD292FE0BD6360D3A1B7171AA9CB"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchLuaGlobalGetItemEvolvedRecipeName.java",
+      "Size": 686,
+      "Sha256": "86B88AA781D464A8A63E3D8C7082E352820E94B5B25CD3977445648DD5E6C529"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchMediaLineGetCodes.java",
+      "Size": 500,
+      "Sha256": "013D0D7A5ADF9617BCC5D8E6C5EED9432DF72689CCB8CD97EB3144CEB492080E"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchMessageForAdminPacketParse.java",
+      "Size": 645,
+      "Sha256": "79390AC9C0D29F57369EF3104A5ECD8A68CCFF3A9DBB63D7C499BB184AE012A1"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchMessageForAdminPacketSetData.java",
+      "Size": 557,
+      "Sha256": "9873424B22F4C4B54546EBECFF4AF7AE3CE52B9D80E063C82B7437EE6D43C386"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchRadioAddDeviceText.java",
+      "Size": 785,
+      "Sha256": "6FC75345B5B0388ABF5EBFAE59BFA825929545A295488716B78FEC885076495D"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchRadioBroadCastAddRadioLine.java",
+      "Size": 730,
+      "Sha256": "A7975FDE82937B11631C891043A5322EF7DDC821953520ACD38021086D12D0A5"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchRadioLineGetEffectsString.java",
+      "Size": 514,
+      "Sha256": "C696AAB4F7BEE911B71282DB3C7EA0A3F4B99E4FF5498BD8D7D79B7B3D6C07EB"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchRadioLineGetText.java",
+      "Size": 629,
+      "Sha256": "1B13604D56C5782F426CFBD7822E22CD11C0DED03F99240A4BC06EBF22FCABCF"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchScriptItemGetDisplayName.java",
+      "Size": 651,
+      "Sha256": "B1D75DCF49FCDB89807AF8D8AF634F04B619E4CB34A762CC44139BD68096F7F1"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchTranslatorGetText.java",
+      "Size": 669,
+      "Sha256": "4240A7D11B4B02CCC585F5495B6160789B0A04381C1ACCE27C02F8CEF63B985C"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchWaveSignalDeviceAddDeviceText.java",
+      "Size": 901,
+      "Sha256": "9F8D83FAA3A9244714F130DA8F60D6D0DBF41B43B8050DF401170E5F0DC80A58"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchWaveSignalPacketParse.java",
+      "Size": 625,
+      "Sha256": "5FD5C80A18318EA695C66A66AA069D7A3784743C3182504D3A54AC6956382DEE"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchWaveSignalPacketProcessClient.java",
+      "Size": 582,
+      "Sha256": "91CA301F4979778D32305872270716F9ECCFC678D075907AC304F3CBABFC5991"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchZomboidRadioApplyWeatherInterference.java",
+      "Size": 1416,
+      "Sha256": "7F1974BF0BA8A3979D7F8FB7EF262C2ABBD2B6A21401701EC37F603F5807F118"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchZomboidRadioSendTransmission.java",
+      "Size": 715,
+      "Sha256": "982B9B103498EDFDE375DDFB80227F4A31EA96A81514EE109F213D62487604DB"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/TranslationTrace.java",
+      "Size": 11303,
+      "Sha256": "1497CFF895C3FA05DB48B88C8CC1283C5DF33D92049AD903AD09D92D79CE2BB1"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/WildFoodNameState.java",
+      "Size": 1485,
+      "Sha256": "DCA3EF1051CE66EE1B2462D5F414865F6EDD0C0C67EEE737BA0EC31E70BA0A06"
+    }
+  ]
+}

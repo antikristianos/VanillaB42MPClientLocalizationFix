@@ -1,0 +1,12 @@
+name=[B42] MP Vanilla Client Localization Fix (WIP)
+id=VanillaB42MPClientLocalizationFix_WIP
+author=Antikristianos
+description=Transports confirmed multiplayer localization keys instead of server-language display text and resolves them in each receiving client's language.
+icon=../common/icon.png
+require=\ZombieBuddy
+javaJarFile=media/java/VanillaB42MPClientLocalizationFix.jar
+javaPkgName=antikristianos.vanillab42mpclientlocalizationfix
+ZBVersionMin=2.3.2
+modversion=1.5.2
+versionMin=42.22.0
+incompatible=VanillaB42MPClientLocalizationFix
