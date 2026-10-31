@@ -3,16 +3,16 @@
   "Project": "VanillaB42MPClientLocalizationFix",
   "Repository": "antikristianos/VanillaB42MPClientLocalizationFix",
   "Branch": "wip",
-  "Tag": "wip-1.73",
-  "ModVersion": "1.5.2",
-  "CollectionVersion": "1.73",
+  "Tag": "wip-1.74",
+  "ModVersion": "1.6",
+  "CollectionVersion": "1.74",
   "WorkshopId": 3802764936,
   "WorkshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802764936",
-  "UploadManifestSha256": "2ABF9D7AF3EF37A06138798DA34248FB098D85FDFBDB9DAA6B4D0E1EDC4D139D",
+  "UploadManifestSha256": "6635C9922F3B93194AD831FAE10CB92BFD22908005B4DCD304C78185535870CF",
   "Artifact": {
     "Path": "mods/VanillaB42MPClientLocalizationFix_WIP/42.22/media/java/VanillaB42MPClientLocalizationFix.jar",
-    "Size": 75573,
-    "Sha256": "246BE03ACA8A8E83C27BC5213BE8ACA8F3F2B02B2C5E3540B0B5112E26DAB6C4"
+    "Size": 75572,
+    "Sha256": "6086EC7B06A936B100AAF8AA14D9F39EC97C39E32EC78A10152AAD9825D60C27"
   },
   "Sources": [
     {
@@ -22,13 +22,13 @@
     },
     {
       "Path": "MANIFEST.MF",
-      "Size": 175,
-      "Sha256": "739EFBBE21F3F60F41D7ADE3A89D44230C8D65D49134BA62DCE31C0CD7DD53BF"
+      "Size": 173,
+      "Sha256": "1372D432361791D88660435840B95F798AB29D22F53B4AC7B2877806017FF896"
     },
     {
       "Path": "README.md",
-      "Size": 1487,
-      "Sha256": "3658E261C527D77299991292FAB77DFE001C3A3B89DA1489EF338EEE88086B00"
+      "Size": 1485,
+      "Sha256": "CA1FAFA1871ECB5027F0124FF8B11860CDBE2BAE9EA38812F22579D013CA88E3"
     },
     {
       "Path": "build.json",
@@ -57,8 +57,8 @@
     },
     {
       "Path": "runtime/42.22/mod.info",
-      "Size": 542,
-      "Sha256": "F9EE80B782395B19457A0DC87469D89703994D1FEC1092A2DFB76868E616867D"
+      "Size": 540,
+      "Sha256": "E8B4F14CC7A60238D3EB9E624AD12E83AD9156AAA03E8BDA03DEA523A28360EF"
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/AebsTextCodec.java",

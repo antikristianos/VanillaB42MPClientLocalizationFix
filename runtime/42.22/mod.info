@@ -7,6 +7,6 @@ require=\ZombieBuddy
 javaJarFile=media/java/VanillaB42MPClientLocalizationFix.jar
 javaPkgName=antikristianos.vanillab42mpclientlocalizationfix
 ZBVersionMin=2.3.2
-modversion=1.5.2
+modversion=1.6
 versionMin=42.22.0
 incompatible=VanillaB42MPClientLocalizationFix

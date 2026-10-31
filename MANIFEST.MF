@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Title: Vanilla B42 MP Client Localization Fix
-Implementation-Version: 1.5.2
+Implementation-Version: 1.6
 Build-Jdk-Spec: 17
 Created-By: 25 (Oracle Corporation)
 
