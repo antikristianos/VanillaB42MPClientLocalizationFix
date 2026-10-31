@@ -76,7 +76,7 @@ public final class LocalizationRuntime {
             return;
         }
         try {
-            ITEM_PACKET_NAME.set(packet, getOriginalItemName(food));
+            ITEM_PACKET_NAME.set(packet, food.getFullType());
         } catch (IllegalAccessException exception) {
             throw new IllegalStateException("Cannot neutralize ItemStatsPacket name", exception);
         }
@@ -125,6 +125,9 @@ public final class LocalizationRuntime {
         try {
             LocalizedText state = rebuildEvolvedRecipeState(item);
             if (state == null) {
+                state = LiteratureNameState.rebuild(item);
+            }
+            if (state == null) {
                 state = LocalizedTextState.read(item.getModData().rawget(ITEM_NAME_STATE_KEY));
             }
             if (state != null) {
@@ -157,6 +160,23 @@ public final class LocalizationRuntime {
             clearRememberedItemName(item);
         } else {
             rememberItemNameState(item, state, rebuildEvolvedRecipeState(item) == null);
+            resetItemToLanguageNeutralName(item);
+        }
+    }
+
+    /** Savegames and full-item network packets must serialize the same neutral state. */
+    public static void prepareSerializedItemName(InventoryItem item) {
+        if (!isMultiplayerRuntime() || item == null) {
+            return;
+        }
+        LocalizedText state = preferredItemNameState(item);
+        if (state != null) {
+            rememberItemNameState(item, state, rebuildEvolvedRecipeState(item) == null);
+            resetItemToLanguageNeutralName(item);
+        } else if (!item.isCustomName()
+                && Objects.equals(getRawItemName(item), getOriginalItemName(item))) {
+            // An ordinary base item already has a stable fullType. Vanilla's redundant
+            // modData copy of its local base label is unnecessary on the wire as well.
             resetItemToLanguageNeutralName(item);
         }
     }
@@ -648,7 +668,8 @@ public final class LocalizationRuntime {
             rememberItemNameState(item, rebuilt, false);
             return rebuilt;
         }
-        return rememberedItemNameState(item);
+        LocalizedText literature = LiteratureNameState.rebuild(item);
+        return literature != null ? literature : rememberedItemNameState(item);
     }
 
     private static String renderRememberedItemName(InventoryItem item, String resolvedText) {
@@ -700,6 +721,13 @@ public final class LocalizationRuntime {
 
     private static void resetItemToLanguageNeutralName(InventoryItem item) {
         try {
+            // Vanilla setCustomName(false) also copies name into modData. Do not keep
+            // that redundant rendered copy after restoring a proven system name.
+            Object copiedName = item.getModData().rawget("customName");
+            if (Objects.equals(copiedName, getRawItemName(item))
+                    || Objects.equals(copiedName, getOriginalItemName(item))) {
+                item.getModData().rawset("customName", null);
+            }
             INVENTORY_ITEM_NAME.set(item, getOriginalItemName(item));
         } catch (IllegalAccessException exception) {
             throw new IllegalStateException("Cannot reset language-neutral item name", exception);

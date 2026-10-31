@@ -39,24 +39,34 @@
       "Sha256": "0528104437D7C99BA6D18A6633F4A02B3652F095E6E6B25544A52CAF2FC32177"
     },
     {
+      "Path": "antikristianos/vanillab42mpclientlocalizationfix/LiteratureNameState$Cached.class",
+      "Size": 2445,
+      "Sha256": "BBABEB2F50C4327C8F78D008503C007B1F02B043875FC1DEC9D196F9A1DA6266"
+    },
+    {
+      "Path": "antikristianos/vanillab42mpclientlocalizationfix/LiteratureNameState.class",
+      "Size": 6913,
+      "Sha256": "AE5251B6C36788A57A4B6DF913E2854565459CA8F33587B45649579E1583CD18"
+    },
+    {
       "Path": "antikristianos/vanillab42mpclientlocalizationfix/LocalizationRuntime$CachedItemName.class",
       "Size": 1857,
-      "Sha256": "6FBEBAFB7B5EA6AC0B95F48EB886EF27FDB2CF506EF681314CFD139506B3A018"
+      "Sha256": "C03B64A2F59FBEBB4E999E4999847F5B58C2E95CB57D842F9E5808061B0F1120"
     },
     {
       "Path": "antikristianos/vanillab42mpclientlocalizationfix/LocalizationRuntime$ItemNameOrigin.class",
       "Size": 556,
-      "Sha256": "7AA6704BA874CC127BC11C20597876AD32A713445EAF375361037BEF186FE284"
+      "Sha256": "0047265F19A16E5DD68D44E5670FB9640D08EF73ED63E18AD8EBAB5ED6DDFA1F"
     },
     {
       "Path": "antikristianos/vanillab42mpclientlocalizationfix/LocalizationRuntime$RenderedRadioLine.class",
       "Size": 679,
-      "Sha256": "E144AB61E1DBD3FE035028FCD4AE049000CBAAD7C1EF0F041B03BB6142AE65BD"
+      "Sha256": "A8DA38F1D9A0CBF4CDECA100C1EFD23BB7467A0AB33029D35F5D086ED0A1504A"
     },
     {
       "Path": "antikristianos/vanillab42mpclientlocalizationfix/LocalizationRuntime.class",
-      "Size": 24939,
-      "Sha256": "16DFDCDFAED67E5C60479D1A632A3CAB4EE3C67DDFF57FA0D0FA0D73990BAAB9"
+      "Size": 25402,
+      "Sha256": "40C3540E0CEEAE1CECC74BDF25B778AAA7090941530815C89A9248448ACF89BA"
     },
     {
       "Path": "antikristianos/vanillab42mpclientlocalizationfix/LocalizedText$Kind.class",
@@ -132,6 +142,11 @@
       "Path": "antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemLoad.class",
       "Size": 1231,
       "Sha256": "05A7CCB0857154AF2E0BFECCB9072A97D9D75473C33AFD0A4C580C1635959390"
+    },
+    {
+      "Path": "antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemPrepareSave.class",
+      "Size": 1203,
+      "Sha256": "5EA8FA6632F256BC79B5F428DF5BCEF171899E0A37A2274877958F320E4AF034"
     },
     {
       "Path": "antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemSetCustomName.class",
@@ -277,8 +292,8 @@
     },
     {
       "Path": "ZombieBuddy.jar",
-      "Size": 12491692,
-      "Sha256": "79120880FDA051718082BD9BF0C2C2B639450AE73641FDB4631750221A57B208"
+      "Size": 12491689,
+      "Sha256": "F2490E1B72F12CFAE7EB7ADC3DCEA08F20F12AD8DDA4FB8C824631408DE3C180"
     }
   ]
 }

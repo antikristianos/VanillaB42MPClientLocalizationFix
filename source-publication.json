@@ -3,16 +3,16 @@
   "Project": "VanillaB42MPClientLocalizationFix",
   "Repository": "antikristianos/VanillaB42MPClientLocalizationFix",
   "Branch": "main",
-  "Tag": "v1.5",
-  "ModVersion": "1.5",
+  "Tag": "v1.6",
+  "ModVersion": "1.6",
   "CollectionVersion": null,
   "WorkshopId": 3792709178,
   "WorkshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3792709178",
-  "UploadManifestSha256": "0F5F4F9C54E1F47B225819498D1AF5A380187EB20C42D9DBB742CC7A70445C55",
+  "UploadManifestSha256": "6049B8A17ADC1953368D897D8E149976790858CD2AA9A8CFB66D5F7AB76E819B",
   "Artifact": {
-    "Path": "mods/VanillaB42MPClientLocalizationFix/42.20/media/java/VanillaB42MPClientLocalizationFix.jar",
-    "Size": 69773,
-    "Sha256": "8FE96569EB0062928EB6FF3C3BE7372FE45F5C33D4152E0701EA83B29041EAB1"
+    "Path": "mods/VanillaB42MPClientLocalizationFix/42.22/media/java/VanillaB42MPClientLocalizationFix.jar",
+    "Size": 75572,
+    "Sha256": "6086EC7B06A936B100AAF8AA14D9F39EC97C39E32EC78A10152AAD9825D60C27"
   },
   "Sources": [
     {
@@ -23,17 +23,17 @@
     {
       "Path": "MANIFEST.MF",
       "Size": 173,
-      "Sha256": "6DAF5E396DACD4A08B4E5BC502DC7A32C62B9319B18369A85BE85428668A1E58"
+      "Sha256": "1372D432361791D88660435840B95F798AB29D22F53B4AC7B2877806017FF896"
     },
     {
       "Path": "README.md",
-      "Size": 1304,
-      "Sha256": "75B013FF0995362C500C93C6A80998CD3BFD5DEC0B2BB7517986467777CC92D0"
+      "Size": 1481,
+      "Sha256": "7195911DE7449DB9D75C22B7F8F71B07AD76480DC0BB7DA10DD8167FC175B51E"
     },
     {
       "Path": "build.json",
-      "Size": 12149,
-      "Sha256": "4BA2E03C49C1CE27FDF34FC23DA2C268AF34593318CC05308E92525F169009BB"
+      "Size": 12805,
+      "Sha256": "DD0B2C9518C980A68D9E3B33A85D44054C6AD319C1CFA45AB299D2E4A552D495"
     },
     {
       "Path": "build.ps1",
@@ -41,24 +41,24 @@
       "Sha256": "8389B7B0B5515387FA5D9B3989FED7C8629DA7762817C03AD266B69DE5B2B0FD"
     },
     {
-      "Path": "runtime/42.20/media/lua/client/VB42MPClientLocalizationFix/FishingRodNames.lua",
+      "Path": "runtime/42.22/media/lua/client/VB42MPClientLocalizationFix/FishingRodNames.lua",
       "Size": 1246,
       "Sha256": "34456E8531A2BA528511EF15A1FB6EC85E5B36A25DB14F4F35D8BE53AEC6189B"
     },
     {
-      "Path": "runtime/42.20/media/lua/shared/VB42MPClientLocalizationFix/EvolvedRecipeNames.lua",
+      "Path": "runtime/42.22/media/lua/shared/VB42MPClientLocalizationFix/EvolvedRecipeNames.lua",
       "Size": 983,
       "Sha256": "0B512DDD4AED5425DEA8A40EAB474A3FCADEE7969836A79DAC4C3C44E74375F6"
     },
     {
-      "Path": "runtime/42.20/media/lua/shared/VB42MPClientLocalizationFix/MediaRecipes.lua",
+      "Path": "runtime/42.22/media/lua/shared/VB42MPClientLocalizationFix/MediaRecipes.lua",
       "Size": 5569,
       "Sha256": "C2A5651F700868D75EE6392372E4113C4D769489AD3D2506E7CC6965C15AE5B5"
     },
     {
-      "Path": "runtime/42.20/mod.info",
+      "Path": "runtime/42.22/mod.info",
       "Size": 562,
-      "Sha256": "BE62B5B71E2F4040162B614FB82D39BF7298167088EF329E5F79BD5B0BBDCB07"
+      "Sha256": "3ED2BBDD74270BA826B7881F4ED2BF63DBA3217F178AD3575F2FFCE60D3FC86C"
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/AebsTextCodec.java",
@@ -76,9 +76,14 @@
       "Sha256": "56D2213D78A40113904E54084B671E943AF44A672F6FF88873B8679E7EEC7D3C"
     },
     {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/LiteratureNameState.java",
+      "Size": 6789,
+      "Sha256": "45F615FE025D38DE6062390B95D539DE9D2DF38BB74D7350C309CA0ED64963D2"
+    },
+    {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/LocalizationRuntime.java",
-      "Size": 36802,
-      "Sha256": "8A03D4496C10123DAE2B9C7DA72099E9C3874C2DCFEB9E910C06243D82CE5475"
+      "Size": 38310,
+      "Sha256": "40360F9A70789ECB6747233DA205CFAD2D6AFE2EF5A2909B7BEB1631E5DCBF5E"
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/LocalizedText.java",
@@ -92,13 +97,13 @@
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/LuaLocalizationBridge.java",
-      "Size": 830,
-      "Sha256": "72BD5AF9593782EC97EFFCE7F692A9F05363E5E6540C03766C3CDAAF636AAF19"
+      "Size": 849,
+      "Sha256": "04145D42D710F9C4B7E19621D5C4AB0FDE3813D17995E7E22A79B7325E76D239"
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/MediaRecipeRuntime.java",
-      "Size": 2818,
-      "Sha256": "C811E541FA502D98E53ACB2F0CD13277C8457D383B6C0F9BADA12E365AFCB35F"
+      "Size": 2891,
+      "Sha256": "E1F74638F7F76BF40F55782C9D485337C366867A5D0D63C0DE6BD7F856A45824"
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchCharacterIsCraftRecipeKnown.java",
@@ -144,6 +149,11 @@
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemLoad.java",
       "Size": 623,
       "Sha256": "FE7A0C92D53309654E12FB8BFB140DB5E53F4D4B31618F6072504418F65FD7A7"
+    },
+    {
+      "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemPrepareSave.java",
+      "Size": 620,
+      "Sha256": "BD48094E9681477EBA1856353805D58AEDD2090B44F188C7F76489229883C08B"
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchInventoryItemSetCustomName.java",
@@ -192,8 +202,8 @@
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchMediaLineGetCodes.java",
-      "Size": 485,
-      "Sha256": "E50B6BF0C3BB4247187E673B25BCDC8F333AF87A4CB4212FC7846C8AC08838DD"
+      "Size": 500,
+      "Sha256": "013D0D7A5ADF9617BCC5D8E6C5EED9432DF72689CCB8CD97EB3144CEB492080E"
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchMessageForAdminPacketParse.java",
@@ -217,8 +227,8 @@
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchRadioLineGetEffectsString.java",
-      "Size": 499,
-      "Sha256": "9C43F79F17D1B16EE8394D97A1C8D5C5E5E3FE51007EF63B73144CCDFED836F9"
+      "Size": 514,
+      "Sha256": "C696AAB4F7BEE911B71282DB3C7EA0A3F4B99E4FF5498BD8D7D79B7B3D6C07EB"
     },
     {
       "Path": "src/antikristianos/vanillab42mpclientlocalizationfix/PatchRadioLineGetText.java",
