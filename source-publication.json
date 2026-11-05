@@ -3,12 +3,12 @@
   "Project": "VanillaB42MPClientLocalizationFix",
   "Repository": "antikristianos/VanillaB42MPClientLocalizationFix",
   "Branch": "wip",
-  "Tag": "wip-1.80",
+  "Tag": "wip-1.81",
   "ModVersion": "1.6",
-  "CollectionVersion": "1.80",
+  "CollectionVersion": "1.81",
   "WorkshopId": 3802764936,
   "WorkshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802764936",
-  "UploadManifestSha256": "C40AF9B59B6D599DBF4132FD357BA4C7187FF9922DADECF261FA4A433C859349",
+  "UploadManifestSha256": "7737F5DA54B12FFEB0391A45B0792D1920123C2905FBB6D421BE5D88F9E7CCA3",
   "Artifact": {
     "Path": "mods/VanillaB42MPClientLocalizationFix_WIP/42.22/media/java/VanillaB42MPClientLocalizationFix.jar",
     "Size": 75572,
@@ -33,7 +33,7 @@
     {
       "Path": "build.json",
       "Size": 12805,
-      "Sha256": "DD0B2C9518C980A68D9E3B33A85D44054C6AD319C1CFA45AB299D2E4A552D495"
+      "Sha256": "84F84E8A2DF601773D65C0EAD96B4634E4C41181B3EC86603F17EE97D84351C1"
     },
     {
       "Path": "build.ps1",
